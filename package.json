@@ -1,0 +1,38 @@
+{
+  "name": "bigwin-images-hosting",
+  "version": "1.0.0",
+  "description": "BIGWIN画像ホスティングサービス - BBDiscord システム",
+  "main": "index.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Build complete'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "netlify",
+    "functions",
+    "image-hosting",
+    "bbdiscord",
+    "bigwin"
+  ],
+  "author": "BBDiscord Team",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bigwin-images"
+  },
+  "netlify": {
+    "build": {
+      "functions": "netlify/functions"
+    }
+  }
+} 
