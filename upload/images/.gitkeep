@@ -1,0 +1,2 @@
+# This file ensures the upload/images directory is tracked by Git
+# BigWin images will be uploaded here via GitHub API 
