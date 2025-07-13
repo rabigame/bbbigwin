@@ -4,8 +4,8 @@ const crypto = require('crypto');
 const ALLOWED_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.webp', '.gif'];
 const MAX_FILE_SIZE = 8 * 1024 * 1024; // 8MB
 
-// GitHub設定
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || 'your_github_token_here';
+// GitHub設定（直接記入）
+const GITHUB_TOKEN = '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';
 const GITHUB_REPO = 'rabigame/bbbigwin';
 const GITHUB_BRANCH = 'main';
 
